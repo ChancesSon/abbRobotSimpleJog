@@ -1,0 +1,15 @@
+D:\code\Cshap\pcsdkTest\pcsdkTest\bin\Debug\pcsdkTest.exe.config
+D:\code\Cshap\pcsdkTest\pcsdkTest\bin\Debug\pcsdkTest.exe
+D:\code\Cshap\pcsdkTest\pcsdkTest\bin\Debug\pcsdkTest.pdb
+D:\code\Cshap\pcsdkTest\pcsdkTest\bin\Debug\ABB.Robotics.Controllers.PC.dll
+D:\code\Cshap\pcsdkTest\pcsdkTest\bin\Debug\RobotStudio.Services.RobApi.dll
+D:\code\Cshap\pcsdkTest\pcsdkTest\bin\Debug\RobotStudio.Services.RobApi.Desktop.dll
+D:\code\Cshap\pcsdkTest\pcsdkTest\bin\Debug\ABB.Robotics.Controllers.PC.xml
+D:\code\Cshap\pcsdkTest\pcsdkTest\obj\Debug\pcsdkTest.csprojAssemblyReference.cache
+D:\code\Cshap\pcsdkTest\pcsdkTest\obj\Debug\pcsdkTest.Form1.resources
+D:\code\Cshap\pcsdkTest\pcsdkTest\obj\Debug\pcsdkTest.Properties.Resources.resources
+D:\code\Cshap\pcsdkTest\pcsdkTest\obj\Debug\pcsdkTest.csproj.GenerateResource.cache
+D:\code\Cshap\pcsdkTest\pcsdkTest\obj\Debug\pcsdkTest.csproj.CoreCompileInputs.cache
+D:\code\Cshap\pcsdkTest\pcsdkTest\obj\Debug\pcsdkTest.csproj.CopyComplete
+D:\code\Cshap\pcsdkTest\pcsdkTest\obj\Debug\pcsdkTest.exe
+D:\code\Cshap\pcsdkTest\pcsdkTest\obj\Debug\pcsdkTest.pdb
