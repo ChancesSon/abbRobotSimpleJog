@@ -41,3 +41,4 @@ D:\SVN\abbRobotSimpleJog\trunk\pcsdkTest\pcsdkTest\pcsdkTest\pcsdkTest\obj\x64\R
 D:\SVN\abbRobotSimpleJog\trunk\pcsdkTest\pcsdkTest\pcsdkTest\pcsdkTest\obj\x64\Release\pcsdkTest.csproj.CopyComplete
 D:\SVN\abbRobotSimpleJog\trunk\pcsdkTest\pcsdkTest\pcsdkTest\pcsdkTest\obj\x64\Release\pcsdkTest.exe
 D:\SVN\abbRobotSimpleJog\trunk\pcsdkTest\pcsdkTest\pcsdkTest\pcsdkTest\obj\x64\Release\pcsdkTest.pdb
+D:\SVN\abbRobotSimpleJog\trunk\pcsdkTest\pcsdkTest\pcsdkTest\pcsdkTest\obj\x64\Release\pcsdkTest.csprojAssemblyReference.cache

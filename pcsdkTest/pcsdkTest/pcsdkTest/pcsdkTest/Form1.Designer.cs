@@ -87,10 +87,13 @@
             this.btnDecrJ1 = new System.Windows.Forms.Button();
             this.btnIncrJ1 = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.rtbLog = new System.Windows.Forms.RichTextBox();
             this.groupBox2.SuspendLayout();
             this.Power.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox5.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // listView1
@@ -107,7 +110,7 @@
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(2, 12);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(645, 224);
+            this.listView1.Size = new System.Drawing.Size(965, 224);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -126,17 +129,17 @@
             // Availability
             // 
             this.Availability.Text = "Availability";
-            this.Availability.Width = 98;
+            this.Availability.Width = 155;
             // 
             // SystemName
             // 
             this.SystemName.Text = "SystemName";
-            this.SystemName.Width = 109;
+            this.SystemName.Width = 200;
             // 
             // rwVersion
             // 
             this.rwVersion.Text = "RobotWare Version";
-            this.rwVersion.Width = 140;
+            this.rwVersion.Width = 227;
             // 
             // ControllerName
             // 
@@ -146,7 +149,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(123, 72);
+            this.label2.Location = new System.Drawing.Point(108, 72);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(47, 15);
             this.label2.TabIndex = 4;
@@ -162,7 +165,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(123, 36);
+            this.label1.Location = new System.Drawing.Point(108, 33);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(111, 15);
             this.label1.TabIndex = 2;
@@ -254,21 +257,21 @@
             // 
             // tbJ6
             // 
-            this.tbJ6.Location = new System.Drawing.Point(492, 88);
+            this.tbJ6.Location = new System.Drawing.Point(397, 87);
             this.tbJ6.Name = "tbJ6";
             this.tbJ6.Size = new System.Drawing.Size(100, 23);
             this.tbJ6.TabIndex = 18;
             // 
             // tbJ5
             // 
-            this.tbJ5.Location = new System.Drawing.Point(492, 52);
+            this.tbJ5.Location = new System.Drawing.Point(397, 51);
             this.tbJ5.Name = "tbJ5";
             this.tbJ5.Size = new System.Drawing.Size(100, 23);
             this.tbJ5.TabIndex = 16;
             // 
             // tbJ4
             // 
-            this.tbJ4.Location = new System.Drawing.Point(492, 22);
+            this.tbJ4.Location = new System.Drawing.Point(397, 21);
             this.tbJ4.Name = "tbJ4";
             this.tbJ4.Size = new System.Drawing.Size(100, 23);
             this.tbJ4.TabIndex = 14;
@@ -297,6 +300,7 @@
             // groupBox5
             // 
             this.groupBox5.Controls.Add(this.tbQ4);
+            this.groupBox5.Controls.Add(this.btnHome);
             this.groupBox5.Controls.Add(this.btnDecrQ4);
             this.groupBox5.Controls.Add(this.btnIncrQ4);
             this.groupBox5.Controls.Add(this.tbQ3);
@@ -337,14 +341,14 @@
             this.groupBox5.Controls.Add(this.btnIncrJ1);
             this.groupBox5.Location = new System.Drawing.Point(12, 427);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(635, 271);
+            this.groupBox5.Size = new System.Drawing.Size(518, 280);
             this.groupBox5.TabIndex = 12;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Robot Jog";
             // 
             // tbQ4
             // 
-            this.tbQ4.Location = new System.Drawing.Point(492, 235);
+            this.tbQ4.Location = new System.Drawing.Point(397, 234);
             this.tbQ4.Name = "tbQ4";
             this.tbQ4.Size = new System.Drawing.Size(100, 23);
             this.tbQ4.TabIndex = 117;
@@ -352,7 +356,7 @@
             // btnDecrQ4
             // 
             this.btnDecrQ4.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnDecrQ4.Location = new System.Drawing.Point(427, 235);
+            this.btnDecrQ4.Location = new System.Drawing.Point(332, 234);
             this.btnDecrQ4.Name = "btnDecrQ4";
             this.btnDecrQ4.Size = new System.Drawing.Size(59, 27);
             this.btnDecrQ4.TabIndex = 119;
@@ -363,7 +367,7 @@
             // btnIncrQ4
             // 
             this.btnIncrQ4.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnIncrQ4.Location = new System.Drawing.Point(360, 235);
+            this.btnIncrQ4.Location = new System.Drawing.Point(265, 234);
             this.btnIncrQ4.Name = "btnIncrQ4";
             this.btnIncrQ4.Size = new System.Drawing.Size(59, 27);
             this.btnIncrQ4.TabIndex = 118;
@@ -373,7 +377,7 @@
             // 
             // tbQ3
             // 
-            this.tbQ3.Location = new System.Drawing.Point(492, 202);
+            this.tbQ3.Location = new System.Drawing.Point(397, 201);
             this.tbQ3.Name = "tbQ3";
             this.tbQ3.Size = new System.Drawing.Size(100, 23);
             this.tbQ3.TabIndex = 104;
@@ -381,7 +385,7 @@
             // btnDecrQ3
             // 
             this.btnDecrQ3.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnDecrQ3.Location = new System.Drawing.Point(427, 202);
+            this.btnDecrQ3.Location = new System.Drawing.Point(332, 201);
             this.btnDecrQ3.Name = "btnDecrQ3";
             this.btnDecrQ3.Size = new System.Drawing.Size(59, 27);
             this.btnDecrQ3.TabIndex = 116;
@@ -391,7 +395,7 @@
             // 
             // tbQ2
             // 
-            this.tbQ2.Location = new System.Drawing.Point(492, 166);
+            this.tbQ2.Location = new System.Drawing.Point(397, 165);
             this.tbQ2.Name = "tbQ2";
             this.tbQ2.Size = new System.Drawing.Size(100, 23);
             this.tbQ2.TabIndex = 103;
@@ -399,7 +403,7 @@
             // btnIncrQ3
             // 
             this.btnIncrQ3.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnIncrQ3.Location = new System.Drawing.Point(360, 202);
+            this.btnIncrQ3.Location = new System.Drawing.Point(265, 201);
             this.btnIncrQ3.Name = "btnIncrQ3";
             this.btnIncrQ3.Size = new System.Drawing.Size(59, 27);
             this.btnIncrQ3.TabIndex = 115;
@@ -409,7 +413,7 @@
             // 
             // tbQ1
             // 
-            this.tbQ1.Location = new System.Drawing.Point(492, 136);
+            this.tbQ1.Location = new System.Drawing.Point(397, 135);
             this.tbQ1.Name = "tbQ1";
             this.tbQ1.Size = new System.Drawing.Size(100, 23);
             this.tbQ1.TabIndex = 102;
@@ -417,7 +421,7 @@
             // btnDecrQ2
             // 
             this.btnDecrQ2.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnDecrQ2.Location = new System.Drawing.Point(427, 169);
+            this.btnDecrQ2.Location = new System.Drawing.Point(332, 168);
             this.btnDecrQ2.Name = "btnDecrQ2";
             this.btnDecrQ2.Size = new System.Drawing.Size(59, 27);
             this.btnDecrQ2.TabIndex = 114;
@@ -427,7 +431,7 @@
             // 
             // tbZ
             // 
-            this.tbZ.Location = new System.Drawing.Point(143, 210);
+            this.tbZ.Location = new System.Drawing.Point(143, 201);
             this.tbZ.Name = "tbZ";
             this.tbZ.Size = new System.Drawing.Size(100, 23);
             this.tbZ.TabIndex = 101;
@@ -435,7 +439,7 @@
             // btnIncrQ2
             // 
             this.btnIncrQ2.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnIncrQ2.Location = new System.Drawing.Point(360, 169);
+            this.btnIncrQ2.Location = new System.Drawing.Point(265, 168);
             this.btnIncrQ2.Name = "btnIncrQ2";
             this.btnIncrQ2.Size = new System.Drawing.Size(59, 27);
             this.btnIncrQ2.TabIndex = 113;
@@ -446,7 +450,7 @@
             // btnDecrQ1
             // 
             this.btnDecrQ1.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnDecrQ1.Location = new System.Drawing.Point(427, 132);
+            this.btnDecrQ1.Location = new System.Drawing.Point(332, 131);
             this.btnDecrQ1.Name = "btnDecrQ1";
             this.btnDecrQ1.Size = new System.Drawing.Size(59, 27);
             this.btnDecrQ1.TabIndex = 112;
@@ -457,7 +461,7 @@
             // btnIncrQ1
             // 
             this.btnIncrQ1.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnIncrQ1.Location = new System.Drawing.Point(360, 132);
+            this.btnIncrQ1.Location = new System.Drawing.Point(265, 131);
             this.btnIncrQ1.Name = "btnIncrQ1";
             this.btnIncrQ1.Size = new System.Drawing.Size(59, 27);
             this.btnIncrQ1.TabIndex = 111;
@@ -468,7 +472,7 @@
             // btnDecrZ
             // 
             this.btnDecrZ.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnDecrZ.Location = new System.Drawing.Point(78, 207);
+            this.btnDecrZ.Location = new System.Drawing.Point(78, 198);
             this.btnDecrZ.Name = "btnDecrZ";
             this.btnDecrZ.Size = new System.Drawing.Size(59, 27);
             this.btnDecrZ.TabIndex = 110;
@@ -478,7 +482,7 @@
             // 
             // tbY
             // 
-            this.tbY.Location = new System.Drawing.Point(143, 176);
+            this.tbY.Location = new System.Drawing.Point(143, 167);
             this.tbY.Name = "tbY";
             this.tbY.Size = new System.Drawing.Size(100, 23);
             this.tbY.TabIndex = 100;
@@ -486,7 +490,7 @@
             // btnIncrZ
             // 
             this.btnIncrZ.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnIncrZ.Location = new System.Drawing.Point(11, 207);
+            this.btnIncrZ.Location = new System.Drawing.Point(11, 198);
             this.btnIncrZ.Name = "btnIncrZ";
             this.btnIncrZ.Size = new System.Drawing.Size(59, 27);
             this.btnIncrZ.TabIndex = 109;
@@ -497,7 +501,7 @@
             // btnDecrY
             // 
             this.btnDecrY.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnDecrY.Location = new System.Drawing.Point(78, 176);
+            this.btnDecrY.Location = new System.Drawing.Point(78, 167);
             this.btnDecrY.Name = "btnDecrY";
             this.btnDecrY.Size = new System.Drawing.Size(59, 27);
             this.btnDecrY.TabIndex = 108;
@@ -508,7 +512,7 @@
             // btnIncrY
             // 
             this.btnIncrY.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnIncrY.Location = new System.Drawing.Point(11, 176);
+            this.btnIncrY.Location = new System.Drawing.Point(11, 167);
             this.btnIncrY.Name = "btnIncrY";
             this.btnIncrY.Size = new System.Drawing.Size(59, 27);
             this.btnIncrY.TabIndex = 107;
@@ -519,7 +523,7 @@
             // btnDecrX
             // 
             this.btnDecrX.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnDecrX.Location = new System.Drawing.Point(78, 138);
+            this.btnDecrX.Location = new System.Drawing.Point(78, 129);
             this.btnDecrX.Name = "btnDecrX";
             this.btnDecrX.Size = new System.Drawing.Size(59, 27);
             this.btnDecrX.TabIndex = 106;
@@ -529,7 +533,7 @@
             // 
             // tbX
             // 
-            this.tbX.Location = new System.Drawing.Point(143, 140);
+            this.tbX.Location = new System.Drawing.Point(143, 131);
             this.tbX.Name = "tbX";
             this.tbX.Size = new System.Drawing.Size(100, 23);
             this.tbX.TabIndex = 99;
@@ -537,7 +541,7 @@
             // btnIncrX
             // 
             this.btnIncrX.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnIncrX.Location = new System.Drawing.Point(11, 136);
+            this.btnIncrX.Location = new System.Drawing.Point(11, 127);
             this.btnIncrX.Name = "btnIncrX";
             this.btnIncrX.Size = new System.Drawing.Size(59, 27);
             this.btnIncrX.TabIndex = 105;
@@ -548,7 +552,7 @@
             // btnDecrJ6
             // 
             this.btnDecrJ6.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnDecrJ6.Location = new System.Drawing.Point(427, 88);
+            this.btnDecrJ6.Location = new System.Drawing.Point(332, 87);
             this.btnDecrJ6.Name = "btnDecrJ6";
             this.btnDecrJ6.Size = new System.Drawing.Size(59, 27);
             this.btnDecrJ6.TabIndex = 98;
@@ -559,7 +563,7 @@
             // btnIncrJ6
             // 
             this.btnIncrJ6.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnIncrJ6.Location = new System.Drawing.Point(360, 88);
+            this.btnIncrJ6.Location = new System.Drawing.Point(265, 87);
             this.btnIncrJ6.Name = "btnIncrJ6";
             this.btnIncrJ6.Size = new System.Drawing.Size(59, 27);
             this.btnIncrJ6.TabIndex = 97;
@@ -570,7 +574,7 @@
             // btnDecrJ5
             // 
             this.btnDecrJ5.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnDecrJ5.Location = new System.Drawing.Point(427, 55);
+            this.btnDecrJ5.Location = new System.Drawing.Point(332, 54);
             this.btnDecrJ5.Name = "btnDecrJ5";
             this.btnDecrJ5.Size = new System.Drawing.Size(59, 27);
             this.btnDecrJ5.TabIndex = 96;
@@ -581,7 +585,7 @@
             // btnIncrJ5
             // 
             this.btnIncrJ5.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnIncrJ5.Location = new System.Drawing.Point(360, 55);
+            this.btnIncrJ5.Location = new System.Drawing.Point(265, 54);
             this.btnIncrJ5.Name = "btnIncrJ5";
             this.btnIncrJ5.Size = new System.Drawing.Size(59, 27);
             this.btnIncrJ5.TabIndex = 95;
@@ -592,7 +596,7 @@
             // btnDecrJ4
             // 
             this.btnDecrJ4.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnDecrJ4.Location = new System.Drawing.Point(427, 18);
+            this.btnDecrJ4.Location = new System.Drawing.Point(332, 17);
             this.btnDecrJ4.Name = "btnDecrJ4";
             this.btnDecrJ4.Size = new System.Drawing.Size(59, 27);
             this.btnDecrJ4.TabIndex = 94;
@@ -603,7 +607,7 @@
             // btnIncrJ4
             // 
             this.btnIncrJ4.Font = new System.Drawing.Font("SimSun", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnIncrJ4.Location = new System.Drawing.Point(360, 18);
+            this.btnIncrJ4.Location = new System.Drawing.Point(265, 17);
             this.btnIncrJ4.Name = "btnIncrJ4";
             this.btnIncrJ4.Size = new System.Drawing.Size(59, 27);
             this.btnIncrJ4.TabIndex = 93;
@@ -679,19 +683,37 @@
             // 
             // btnHome
             // 
-            this.btnHome.Location = new System.Drawing.Point(542, 308);
+            this.btnHome.Location = new System.Drawing.Point(15, 230);
             this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(105, 87);
+            this.btnHome.Size = new System.Drawing.Size(228, 31);
             this.btnHome.TabIndex = 14;
             this.btnHome.Text = "GoHome";
             this.btnHome.UseVisualStyleBackColor = true;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.rtbLog);
+            this.groupBox1.Location = new System.Drawing.Point(536, 253);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(431, 454);
+            this.groupBox1.TabIndex = 15;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Log";
+            // 
+            // rtbLog
+            // 
+            this.rtbLog.Location = new System.Drawing.Point(6, 22);
+            this.rtbLog.Name = "rtbLog";
+            this.rtbLog.Size = new System.Drawing.Size(419, 410);
+            this.rtbLog.TabIndex = 0;
+            this.rtbLog.Text = "";
+            // 
             // btnDecrRz
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
-            this.ClientSize = new System.Drawing.Size(679, 719);
-            this.Controls.Add(this.btnHome);
+            this.ClientSize = new System.Drawing.Size(1004, 719);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.listView1);
@@ -704,6 +726,7 @@
             this.groupBox3.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -769,6 +792,8 @@
         private System.Windows.Forms.Button btnDecrQ4;
         private System.Windows.Forms.Button btnIncrQ4;
         private System.Windows.Forms.Button btnHome;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.RichTextBox rtbLog;
     }
 }
 
