@@ -27,3 +27,17 @@ D:\code\pcsdkTest\pcsdkTest\pcsdkTest\bin\x64\Debug\RobotStudio.Services.RobApi.
 D:\code\pcsdkTest\pcsdkTest\pcsdkTest\bin\x64\Debug\RobotStudio.Services.RobApi.Desktop.dll
 D:\code\pcsdkTest\pcsdkTest\pcsdkTest\bin\x64\Debug\ABB.Robotics.Controllers.PC.xml
 D:\code\pcsdkTest\pcsdkTest\pcsdkTest\obj\x64\Debug\pcsdkTest.csproj.CopyComplete
+D:\software\SVN\abbRobotSimpleJog\trunk\pcsdkTest\pcsdkTest\pcsdkTest\pcsdkTest\bin\x64\Debug\pcsdkTest.exe.config
+D:\software\SVN\abbRobotSimpleJog\trunk\pcsdkTest\pcsdkTest\pcsdkTest\pcsdkTest\bin\x64\Debug\pcsdkTest.exe
+D:\software\SVN\abbRobotSimpleJog\trunk\pcsdkTest\pcsdkTest\pcsdkTest\pcsdkTest\bin\x64\Debug\pcsdkTest.pdb
+D:\software\SVN\abbRobotSimpleJog\trunk\pcsdkTest\pcsdkTest\pcsdkTest\pcsdkTest\bin\x64\Debug\ABB.Robotics.Controllers.PC.dll
+D:\software\SVN\abbRobotSimpleJog\trunk\pcsdkTest\pcsdkTest\pcsdkTest\pcsdkTest\bin\x64\Debug\RobotStudio.Services.RobApi.dll
+D:\software\SVN\abbRobotSimpleJog\trunk\pcsdkTest\pcsdkTest\pcsdkTest\pcsdkTest\bin\x64\Debug\RobotStudio.Services.RobApi.Desktop.dll
+D:\software\SVN\abbRobotSimpleJog\trunk\pcsdkTest\pcsdkTest\pcsdkTest\pcsdkTest\bin\x64\Debug\ABB.Robotics.Controllers.PC.xml
+D:\software\SVN\abbRobotSimpleJog\trunk\pcsdkTest\pcsdkTest\pcsdkTest\pcsdkTest\obj\x64\Debug\pcsdkTest.btnDecrRz.resources
+D:\software\SVN\abbRobotSimpleJog\trunk\pcsdkTest\pcsdkTest\pcsdkTest\pcsdkTest\obj\x64\Debug\pcsdkTest.Properties.Resources.resources
+D:\software\SVN\abbRobotSimpleJog\trunk\pcsdkTest\pcsdkTest\pcsdkTest\pcsdkTest\obj\x64\Debug\pcsdkTest.csproj.GenerateResource.cache
+D:\software\SVN\abbRobotSimpleJog\trunk\pcsdkTest\pcsdkTest\pcsdkTest\pcsdkTest\obj\x64\Debug\pcsdkTest.csproj.CoreCompileInputs.cache
+D:\software\SVN\abbRobotSimpleJog\trunk\pcsdkTest\pcsdkTest\pcsdkTest\pcsdkTest\obj\x64\Debug\pcsdkTest.csproj.CopyComplete
+D:\software\SVN\abbRobotSimpleJog\trunk\pcsdkTest\pcsdkTest\pcsdkTest\pcsdkTest\obj\x64\Debug\pcsdkTest.exe
+D:\software\SVN\abbRobotSimpleJog\trunk\pcsdkTest\pcsdkTest\pcsdkTest\pcsdkTest\obj\x64\Debug\pcsdkTest.pdb

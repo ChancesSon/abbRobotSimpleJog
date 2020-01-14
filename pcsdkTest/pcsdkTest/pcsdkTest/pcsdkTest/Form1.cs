@@ -226,7 +226,7 @@ namespace pcsdkTest
 
         private void btPowerOff_Click(object sender, EventArgs e)
         {
-            if (this.controller.State == ControllerState.MotorsOn)
+                if (this.controller.State == ControllerState.MotorsOn)
             {
                 this.controller.State = ControllerState.MotorsOff;
             }
@@ -386,6 +386,7 @@ namespace pcsdkTest
                 {
                     master.Release();
                 }
+                
             }
             catch (System.InvalidOperationException ex)
             {
